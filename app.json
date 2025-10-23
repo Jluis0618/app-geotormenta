@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "GeoTormenta",
+    "slug": "geotormenta",
+    "android": {
+      "package": "com.jdalmonte.geotormenta"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "kotlinVersion": "1.9.24",
+            "packagingOptions": {
+              "pickFirst": ["**/*.so"]
+            }
+          }
+        }
+      ]
+    ]
+  }
+}
